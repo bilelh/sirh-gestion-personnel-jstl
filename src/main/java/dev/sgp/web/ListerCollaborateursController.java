@@ -19,7 +19,7 @@ public class ListerCollaborateursController extends HttpServlet {
 		resp.setContentType("text/html");
 
 		// code HTML ecrit dans le corps de la reponse
-		resp.getWriter().write("<h1>Liste des collaborateurs</h1>"
+		resp.getWriter().write("<h1>Liste de collaborateur</h1>"
 		+ "<ul>"
 		+ "<li>avecPhoto="+ avecPhotoParam + "</li>"
 		+ "<li>departement="+ departementParam + "</li>"
