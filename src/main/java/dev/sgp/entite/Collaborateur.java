@@ -14,6 +14,25 @@ public class Collaborateur {
 	private String photo;
 	private ZonedDateTime dateHeureCreation;
 	private boolean actif;
+	
+	public void Collaborateur (String matricule,String nom,String prenom,
+			LocalDate dateDeNaissance,String adresse,String secu,String emailPro,
+			String photo,ZonedDateTime dateHeureCreation,boolean actif) {
+		this.matricule=matricule;
+		this.nom=nom;
+		this.prenom=prenom;
+		this.dateDeNaissance=dateDeNaissance;
+		this.adresse=adresse;
+		this.secu=secu;
+		this.emailPro=emailPro;
+		this.photo=photo;
+		this.dateHeureCreation=dateHeureCreation;
+		this.actif=actif;
+	}
+	
+	
+	/**Getters and Setters
+	 */
 	public String getMatricule() {
 		return matricule;
 	}
