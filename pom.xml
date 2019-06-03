@@ -2,7 +2,7 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>dev</groupId>
-  <artifactId>sirh-gestion-personnel</artifactId>
+  <artifactId>sirh-gestion-personnel-jstl</artifactId>
   <packaging>war</packaging>
   <version>0.0.1-SNAPSHOT</version>
   <name>sirh-gestion-personnel Maven Webapp</name>
@@ -19,6 +19,13 @@
       <version>3.8.1</version>
       <scope>test</scope>
     </dependency>
+    
+    <dependency>
+		<groupId>jstl</groupId>
+		<artifactId>jstl</artifactId>
+		<version>1.2</version>
+	</dependency>
+    
   </dependencies>
   <build>
     <finalName>sgp</finalName>
